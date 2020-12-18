@@ -4,7 +4,7 @@ NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 
 ### Family Overview
 
-* [a](#a): First generation graviton Arm processors, use [m6g](#m6g) instead.
+* [a](#a): First generation graviton Arm processors, use [m6g](#m6g), [c6g](#c6g), or [r6g](#r6g) instead.
 * [c](#c): Compute-optimized with various core types.
 * [d](#d): Locally attached spinning HDD.
 * [f](#f): FPGAs to run ASICs.
@@ -18,11 +18,11 @@ NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 
 ## A
 
-First generation graviton Arm processors, use [m6g](#m6g) instead.
+First generation graviton Arm processors, use [m6g](#m6g), [c6g](#c6g), or [r6g](#r6g) instead.
 
 ### Variants
 
-`a1` <a name="a1"></a>OLD: 64-bit Arm Neoverse cores
+`a1` <a name="a1"></a>64-bit Arm Neoverse cores
 
 
 ## C
@@ -100,7 +100,7 @@ General-purpose with balanced memory, CPU, and storage.
 ### Variants
 
 
-`m4` <a name="m4"></a>Balanced, older Intel Xeon cores
+`m4` <a name="m4"></a>Balanced, older Intel Xeon cores, use [m5](#m5) or [m6g](#m6g) instead
 
 `m5` <a name="m5"></a>Balanced CPU and memory, latest Intel Xeon cores
 
@@ -127,7 +127,7 @@ Memory-optimized.
 ### Variants
 
 
-`r4` <a name="r4"></a>Older high memory
+`r4` <a name="r4"></a>Older high memory, use [r5](#r5) or [r6g](#r6g) instead.
 
 `r5` <a name="r5"></a>Latest high memory, Intel Xeon cores
 
@@ -153,7 +153,7 @@ Burstable instances that will throttle after a CPU budget.
 ### Variants
 
 
-`t2` <a name="t2"></a>Burstable instances *vCPU is physical core
+`t2` <a name="t2"></a>Older burstable instances *vCPU is physical core, use [t3](#t3) or [t4g](#t4g) instead
 
 `t3` <a name="t3"></a>Latest generation, burstable instances with Intel Xeon cores
 
