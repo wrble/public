@@ -20,7 +20,7 @@ NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 
 First generation graviton Arm processors, use [m6g](#m6g), [c6g](#c6g), or [r6g](#r6g) instead.
 
-### Variants
+#### Variants
 
 `a1` <a name="a1"></a>64-bit Arm Neoverse cores
 
@@ -29,7 +29,7 @@ First generation graviton Arm processors, use [m6g](#m6g), [c6g](#c6g), or [r6g]
 
 Compute-optimized with various core types.
 
-### Variants
+#### Variants
 
 
 `c4` <a name="c4"></a>Intel Xeon E5-2666 v3 cores
@@ -52,7 +52,7 @@ Compute-optimized with various core types.
 
 Locally attached spinning HDD.
 
-### Variants
+#### Variants
 
 `d2` <a name="d2"></a>Attached spinning HDD
 
@@ -63,7 +63,7 @@ Locally attached spinning HDD.
 
 FPGAs to run ASICs.
 
-### Variants
+#### Variants
 
 `f1` <a name="f1"></a>Attached FPGA and SSD
 
@@ -72,7 +72,7 @@ FPGAs to run ASICs.
 
 GPUs for graphics or machine-learning.
 
-### Variants
+#### Variants
 
 `g3` <a name="g3"></a>Attached NVIDIA Tesla M60 GPU
 
@@ -85,7 +85,7 @@ GPUs for graphics or machine-learning.
 
 High-throughput local SSD.
 
-### Variants
+#### Variants
 
 
 `i3en` <a name="i3en"></a>Attached NVMe SSD
@@ -97,7 +97,7 @@ High-throughput local SSD.
 
 General-purpose with balanced memory, CPU, and storage.
 
-### Variants
+#### Variants
 
 
 `m4` <a name="m4"></a>Balanced, older Intel Xeon cores, use [m5](#m5) or [m6g](#m6g) instead
@@ -124,7 +124,7 @@ General-purpose with balanced memory, CPU, and storage.
 
 Memory-optimized.
 
-### Variants
+#### Variants
 
 
 `r4` <a name="r4"></a>Older high memory, use [r5](#r5) or [r6g](#r6g) instead.
@@ -150,7 +150,7 @@ Memory-optimized.
 
 Burstable instances that will throttle after a CPU budget.
 
-### Variants
+#### Variants
 
 
 `t2` <a name="t2"></a>Older burstable instances *vCPU is physical core, use [t3](#t3) or [t4g](#t4g) instead
@@ -166,7 +166,7 @@ Burstable instances that will throttle after a CPU budget.
 
 Lowest price-per-GB RAM instances.
 
-### Variants
+#### Variants
 
 `x1` <a name="x1"></a>Memory-optimized Intel Xeon E7-8880 v3
 
@@ -177,6 +177,6 @@ Lowest price-per-GB RAM instances.
 
 Highest core frequency with a lot of RAM.
 
-### Variants
+#### Variants
 
 `z1d` <a name="z1d"></a>Fast single core performance with really large CPU and memory configurations
