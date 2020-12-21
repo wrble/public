@@ -1,5 +1,11 @@
 ## AWS Instance Type Cheat Sheet
 
+Cache invalidation and naming things. AWS has certainly had a hard time of the latter. The variety of instance types they offer and how long they're been around make it really difficult to be consistent in naming things.
+
+Every time I'm starting a new service to run internally or reviewing something we have going, I find myself struggling to find the right instance type for the needs. For instance, there are three families (r, x, z) that optimize RAM in various ways in various combinations and I always forget about the x and z variants.
+
+So I put together this "cheat sheet" for us internally and thought I'd share it for anyone interested.  Pull requests welcome for updates. 
+
 NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 
 ### Family Overview
