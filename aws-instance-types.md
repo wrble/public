@@ -7,6 +7,7 @@ Whether starting a new service to run internally or reviewing something we have 
 So I put together this "cheat sheet" for us internally and thought I'd share here for anyone else to use; pull requests welcome for updates. 
 
 NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
+
 ### Family Overview
 
 * [a](#a): First generation graviton Arm processors, use [m6g](#m6g), [c6g](#c6g), or [r6g](#r6g) instead.
@@ -14,6 +15,7 @@ NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 * [d](#d): Locally attached spinning HDD.
 * [f](#f): FPGAs to run ASICs.
 * [g](#g): GPUs for graphics or machine-learning.
+* [h](#h): Large spinning HDD.
 * [i](#i): High-throughput local SSD.
 * [m](#m): General-purpose with balanced memory, CPU, and storage.
 * [r](#r): Memory-optimized.
@@ -90,7 +92,7 @@ GPUs for graphics or machine-learning.
 
 ## H
 
-FAMILYDESC
+Large spinning HDD.
 
 #### Variants
 
