@@ -7,7 +7,6 @@ Whether starting a new service to run internally or reviewing something we have 
 So I put together this "cheat sheet" for us internally and thought I'd share here for anyone else to use; pull requests welcome for updates. 
 
 NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
-
 ### Family Overview
 
 * [a](#a): First generation graviton Arm processors, use [m6g](#m6g), [c6g](#c6g), or [r6g](#r6g) instead.
@@ -41,6 +40,8 @@ Compute-optimized with various core types.
 `c4` <a name="c4"></a>Intel Xeon E5-2666 v3 cores
 
 `c5` <a name="c5"></a>Xeon Platinum 8000 cores
+
+`c5a` <a name="c5a"></a>AMD EPYC 7002 cores
 
 `c5ad` <a name="c5ad"></a>c5a + locally attached SSD
 
