@@ -10,8 +10,6 @@ NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 
 ### Family Overview
 
-* [H](#H): Lots of locally attached spinning HDD.
-* [P](#P): NVIDIA GPUs for machine learning and HPC.
 * [a](#a): First generation graviton Arm processors, use [m6g](#m6g), [c6g](#c6g), or [r6g](#r6g) instead.
 * [c](#c): Compute-optimized with various core types.
 * [d](#d): Locally attached spinning HDD.
@@ -23,28 +21,6 @@ NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 * [t](#t): Burstable instances that will throttle after a CPU budget.
 * [x](#x): Lowest price-per-GB RAM instances.
 * [z](#z): Highest core frequency with a lot of RAM.
-
-## H
-
-Lots of locally attached spinning HDD.
-
-#### Variants
-
-`h1` <a name="h1"></a>Up to 16TB of spinning HDD.
-
-
-## P
-
-NVIDIA GPUs for machine learning and HPC.
-
-#### Variants
-
-`p2` <a name="p2"></a>NVIDIA K80 GPUs
-
-`p3` <a name="p3"></a>NVIDIA Tesla V100 GPUs
-
-`p4` <a name="p4"></a>NVIDIA A100 Tensor GPUs
-
 
 ## A
 
@@ -111,6 +87,15 @@ GPUs for graphics or machine-learning.
 `g4dn` <a name="g4dn"></a>Attached NVIDIA T4 Tensor Core GPU
 
 
+## H
+
+FAMILYDESC
+
+#### Variants
+
+`h1` <a name="h1"></a>Up to 16TB of spinning HDD.
+
+
 ## I
 
 High-throughput local SSD.
@@ -150,6 +135,19 @@ General-purpose with balanced memory, CPU, and storage.
 `m6g` <a name="m6g"></a>Balanced CPU and memory, latest Amazon Graviton 2 cores
 
 `m6gd` <a name="m6gd"></a>m6g with attached SSD storage
+
+
+## P
+
+FAMILYDESC
+
+#### Variants
+
+`p2` <a name="p2"></a>NVIDIA K80 GPUs
+
+`p3` <a name="p3"></a>NVIDIA Tesla V100 GPUs
+
+`p4` <a name="p4"></a>NVIDIA A100 Tensor GPUs
 
 
 ## R
