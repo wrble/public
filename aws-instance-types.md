@@ -1,15 +1,17 @@
 ## AWS Instance Type Cheat Sheet
 
-Cache invalidation and naming things. AWS has certainly had a hard time of the latter. The variety of instance types they offer and how long they're been around make it really difficult to be consistent in naming things.
+Cache invalidation and naming things - AWS has certainly had a hard time of the latter. Between the variety of instance types they offer and how long they're been around, there’s no consistency.
 
-Every time I'm starting a new service to run internally or reviewing something we have going, I find myself struggling to find the right instance type for the needs. For instance, there are three families (r, x, z) that optimize RAM in various ways in various combinations and I always forget about the x and z variants.
+Whether starting a new service to run internally or reviewing something we have going, it’s always a struggle to find the right instance type for the needs. For example, there are three families (r, x, z) that optimize RAM in various ways in various combinations yet I always forget about the x and z variants. 
 
-So I put together this "cheat sheet" for us internally and thought I'd share it for anyone interested.  Pull requests welcome for updates. 
+So I put together this "cheat sheet" for us internally and thought I'd share here for anyone else to use; pull requests welcome for updates. 
 
 NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 
 ### Family Overview
 
+* [H](#H): Lots of locally attached spinning HDD.
+* [P](#P): NVIDIA GPUs for machine learning and HPC.
 * [a](#a): First generation graviton Arm processors, use [m6g](#m6g), [c6g](#c6g), or [r6g](#r6g) instead.
 * [c](#c): Compute-optimized with various core types.
 * [d](#d): Locally attached spinning HDD.
@@ -21,6 +23,28 @@ NOTE: Each vCPU is a thread of an Intel or AMD core, except where noted.
 * [t](#t): Burstable instances that will throttle after a CPU budget.
 * [x](#x): Lowest price-per-GB RAM instances.
 * [z](#z): Highest core frequency with a lot of RAM.
+
+## H
+
+Lots of locally attached spinning HDD.
+
+#### Variants
+
+`h1` <a name="h1"></a>Up to 16TB of spinning HDD.
+
+
+## P
+
+NVIDIA GPUs for machine learning and HPC.
+
+#### Variants
+
+`p2` <a name="p2"></a>NVIDIA K80 GPUs
+
+`p3` <a name="p3"></a>NVIDIA Tesla V100 GPUs
+
+`p4` <a name="p4"></a>NVIDIA A100 Tensor GPUs
+
 
 ## A
 
@@ -94,7 +118,9 @@ High-throughput local SSD.
 #### Variants
 
 
-`i3en` <a name="i3en"></a>Attached NVMe SSD
+`i3` <a name="i3"></a>Attached NVMe SSD
+
+`i3en` <a name="i3en"></a>Larger SSDs and enhanced networking
 
 `inf1` <a name="inf1"></a>AWS Inferentia for machine learning
 
