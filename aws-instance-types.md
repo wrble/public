@@ -205,6 +205,8 @@ Lowest price-per-GB RAM instances.
 
 `x1e` <a name="x1e"></a>x1 with optimized EBS
 
+`x2gd` <a name="x2gd"></a>Latest and highest memory, latest Amazon Graviton 2 cores with attached SSD
+
 
 ## Z
 
